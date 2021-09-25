@@ -1,16 +1,18 @@
+/* settings for text and header at top of page */
 header {
     background-color: #3d5a80;
     font-family: 'Staatliches', cursive, sans-serif;
     text-align: center;
-    
 }
 
+/* settings for title of page */
 h1{
     color: white;
     text-shadow: 0px 0px 2px #ee6c4d;
     font-size: 42px;
 }
 
+/* settings for navigation bar */
 .menu{
     padding: 0;
     margin: 0;
@@ -19,25 +21,17 @@ h1{
     font-size: large;
 }    
 
-.menu ul {
-    list-style-type: none;
-    
-}  
-
-.menu li{
+/* settings for text in navigation bar */
+.menu li a{
     padding: 0px 30px 5px 30px;
     margin: 5px;
     display: inline;
-    
-}
-
-.menu li a{
     color: white;
     text-shadow: 0px 0px 2px #ee6c4d;
     text-decoration: none;
-    
 }
 
+/* settings for body */
 main {
     flex: 1;
     font-family: 'Lato', sans-serif;
@@ -55,11 +49,13 @@ main {
     max-width: 100vw;
 }
 
+/* settings for section titles */
 h3{
     color: #293241;
     text-shadow: 0px 0px 2px #ee6c4d;
 }
 
+/* settings for resume items */
 .tile{
     display: flex;
     flex-direction: row;
@@ -72,6 +68,7 @@ h3{
     text-align: left;
 }
 
+/* settings for project items */
 .tile2{
     display: flex;
     flex-direction: column;
@@ -84,6 +81,7 @@ h3{
     text-align: center;
 }
 
+/* settings for footer */
 footer {
     padding: 1px 0px 0px 15px;
     background-color: #293241;
@@ -92,8 +90,7 @@ footer {
     text-shadow: 0px 0px 2px #ee6c4d;
 }
 
-
-/* colors 
+/* color theme
 blue 3d5a80
 dusty blue 98c1d9
 pale blue e0fbfc
